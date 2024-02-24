@@ -1,0 +1,104 @@
+body {
+    background: url(images/light_wool.png) repeat; /*общий фон*/
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto; /*центрируем блок с классом wrapper*/
+    overflow: hidden;
+    width: 1000px; /*ширина блока wrapper*/
+}
+
+.header {
+    position: fixed; /*фиксируем блок с классом header*/
+    background: url(images/header.jpg) no-repeat;
+    width: 1000px; /*ширина шапки*/
+    height: 140px; /*высота шапки*/
+    font: 14px "Century Gothic"; /*шрифт*/
+    color: #020f5f; /*цвет текста*/
+    text-decoration: none; /*убираем подчёркивание*/
+}
+
+.menu {
+    margin: 0 auto; /*центрируем блок с классом wrapper*/
+    overflow: hidden;
+    width: 998px; /*ширина панели меню*/
+    height: 70px; /*высота панели меню*/
+    background: url(images/menu1.png); /*фоновый рисунок*/
+    margin-top: 0; /*отступ сверху*/
+    border-radius: 10px; /*Закругление углов*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #eef4f8; /*рамка*/
+    box-shadow: 3px 3px 5px 0 #0148a4; /*тень*/
+}
+
+.menu ul li {
+    list-style: none; /*убираем маркеры*/
+    float: left; /*выравнивание по левому краю*/
+    padding: 10px 25px 10px 0; /*отступы*/
+}
+
+.menu ul li a, span {
+    font: 18px "Century Gothic"; /*шрифт*/
+    font-weight: bold; /*жирный шрифт*/
+    color: #020f5f; /*цвет текста*/
+    text-decoration: none; /*убираем подчёркивание*/
+}
+
+.menu ul li a:hover {
+    text-decoration: underline; /*добавляем подчёркивание*/
+}
+
+span {
+    margin: 10px 20px 0 0;
+}
+
+.main, .solutions, .services, .instructions, .contacts {
+    background: url(images/fon_block.jpg); /*фоновый рисунок*/
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #eef4f8;
+}
+
+#main, #solutions, #services, #instructions, #contacts {
+    margin-bottom: 3px;
+    background: url(images/line.png) no-repeat bottom;
+}
+
+h2 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font: 24px "Century Gothic";
+    color: #020f5f;
+}
+
+p {
+    padding: 0 20px 20px 20px;
+    font: 18px "Century Gothic";
+}
+
+.caption-top img {
+    margin: 20px;
+    float: left;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 0 solid #eef4f8;
+}
+
+.V img {
+    margin: 0;
+    right: 5px;
+}
+
+img {
+    margin: 20px;
+    float: center;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #eef4f8;
+}
